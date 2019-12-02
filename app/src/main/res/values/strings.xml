@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Petscare</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="sobre">Sobre</string>
+
+    <!-- TEXTO QUE FICA LOGO ABAIXO NA IMAGEM DA AZUL AO CLICAR NO MENU -->
+    <string name="navigation_header_name">Monitoramento de Saúde Animal</string>
+
+    <!-- A PARTIR DAQUI COMEÇAM AS STRINGS DA TELA DE LOGIN -->
+    <string name="login_plainText_usuario">E-mail</string>
+    <string name="login_passwordText_senha">Senha</string>
+    <string name="login_button_login">Fazer Login</string>
+
+    <!-- A PARTIR DAQUI COMEÇAM AS STRINGS DA TELA DE RECUPERAR SENHA -->
+    <string name="esqueceu_senha_email">Digite seu E-mail</string>
+    <string name="esqueceu_senha_button">Recuperar Senha</string>
+    <string name="sucesso_esqueceu_senha">Senha enviado com sucesso para seu e-mail!</string>
+    <string name="falha_esqueceu_senha">Falha ao enviar e-mail de reset!</string>
+
+    <!-- A PARTIR DAQUI COMEÇAM AS STRINGS DA TELA DE CADASTRO -->
+    <string name="button_cadastro">Confirmar</string>
+
+    <!--MENSAGEM DE ERRO-->
+    <string name="erroLogin">Usuário ou senha incorretos.</string>
+    <string name="erroLoginVazio">Por favor insira seu usuário e senha.</string>
+    <string name="erroSemConexao">Por favor verifique sua conexão</string>
+
+    <!-- A PARTIR DAQUI COMEÇAM OS TEXTOS ESCRITOS NO MENU PROPRIAMENTE DITO -->
+    <string name="navigation_menu_animais">Animais</string>
+    <string name="navigation_menu_consultas">Consultas</string>
+    <string name="navigation_menu_idiomas">Idioma</string>
+    <string name="navigation_menu_perfil">Perfil</string>
+    <string name="navigation_menu_logout">Sair</string>
+
+    <!-- TELA DE IDIOMAS -->
+    <string name="titulo_idiomas">Selecione o Idioma</string>
+
+    <!-- TELA DE SOBRE -->
+    <string name="hello_blank_fragment">O que é o aplicativo?</string>
+    <string name="hello_blank_fragment2">Desenvolvido para ajudar o dono no monitoramento de saúde animal dos animais de estimação e manter o mesmo atualizado sobre o estado de saúde do pet</string>
+    <string name="hello_blank_fragment3">Ajuda</string>
+    <string name="hello_blank_fragment4">Abaixo você encontrará informações adicionais sobre o aplicativo. </string>
+    <string name="hello_blank_fragment5">Concepção do Aplicativo</string>
+    <string name="hello_blank_fragment6">O aplicativo foi concebido a partir de um trabalho de graduação do aluno Igor Queirós da Silva, aluno da FATEC-ID</string>
+    <string name="hello_blank_fragment7">Orientador</string>
+    <string name="hello_blank_fragment8">O aplicativo foi criado sob a orientação do Professor Doutor Aldo N. Pontes, da FATEC-ID</string>
+
+    <!--MENSAGEM DE ERRO-->
+    <string name="voltar">Pressione duas vezes para sair.</string>
+    <string name="erroPerfil">Erro ao acessar Perfil.</string>
+    <string name="title_activity_main_veterinario">MainVeterinarioActivity</string>
+
+    <!-- A PARTIR DAQUI COMEÇAM AS STRINGS DA TELA DE ANIMAIS DO PROPRIETARIO -->
+    <string name="titulo_animais">Meus Animais</string>
+    <string name="button_adicionar">adicionar</string>
+    <string name="button_editar">editar</string>
+    <string name="button_excluir">excluir</string>
+    <string name="title_activity_animais">AnimaisActivity</string>
+    <string name="sexo_animais">Sexo:</string>
+    <string name="especie_animais">Espécie:</string>
+
+    <!-- A PARTIR DAQUI COMEÇAM AS STRINGS DA TELA DE PERFIL -->
+    <string name="titulo_perfil">Meu Perfil</string>
+    <string name="perfil_sucess">Modificado com Sucesso</string>
+    <string name="perfil_errornull">Os Campos não devem estar vazios</string>
+    <string name="perfil_erroremail">Campo deve ser preenchido com um email valido</string>
+    <string name="perfil_errorsenha">Os Campos de Senha devem ser iguais</string>
+    <string name="perfil_button">Atualizar</string>
+    <string name="perfil_email">Email</string>
+    <string name="perfil_senha">Senha</string>
+    <string name="perfil_senhaconfirma">Confirmar</string>
+    <string name="perfil_Rg">RG</string>
+    <string name="perfil_endereco">Endereco</string>
+    <string name="perfil_bairro">Bairro</string>
+    <string name="perfil_cidade">Cidade</string>
+    <string name="perfil_estado">Estado</string>
+    <string name="perfil_telefone">Telefone</string>
+    <string name="perfil_usuario">Usuário</string>
+
+    <array name="species">
+        <item>Espécie</item>
+        <item>Cão</item>
+        <item>Gato</item>
+    </array>
+
+    <array name="genres">
+        <item>Sexo</item>
+        <item>Macho</item>
+        <item>Fêmea</item>
+    </array>
+
+    <array name="coat">
+        <item>Tipos de Pelagem</item>
+        <item>Pelagem Curta</item>
+        <item>Pelagem Longa e Sedosa</item>
+        <item>Pelagem Longa e Áspera</item>
+        <item>Pelagem Longa e Encaracolada</item>
+        <item>Dupla Pelagem</item>
+        <item>Pelagem Dura</item>
+        <item>Pelagem Peculiar</item>
+    </array>
+
+    <array name="states">
+        <item>Estado</item>
+        <item>AC</item>
+        <item>AL</item>
+        <item>AP</item>
+        <item>AM</item>
+        <item>BA</item>
+        <item>CE</item>
+        <item>DF</item>
+        <item>ES</item>
+        <item>GO</item>
+        <item>MA</item>
+        <item>MT</item>
+        <item>MS</item>
+        <item>MG</item>
+        <item>PA</item>
+        <item>PB</item>
+        <item>PR</item>
+        <item>PE</item>
+        <item>PI</item>
+        <item>RJ</item>
+        <item>RN</item>
+        <item>RS</item>
+        <item>RO</item>
+        <item>RR</item>
+        <item>SC</item>
+        <item>SP</item>
+        <item>SE</item>
+        <item>TO</item>
+    </array>
+    <string name="title_activity_animais_veterinario">AnimaisVeterinarioActivity</string>
+
+</resources>

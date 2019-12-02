@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Geral">
+        <menu>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_animais"
+            android:icon="@drawable/eye"
+            android:title="Visualizar Animais"/>
+        <item
+            android:id="@+id/nav__cadastro_animais"
+            android:icon="@drawable/pata"
+            android:title="Cadastrar Animais" />
+        <item
+            android:id="@+id/nav_consultas"
+            android:icon="@drawable/calendario"
+            android:title="Acompanhar Consultas" />
+    </group>
+        </menu>
+    </item>
+    <item android:title="Comunicação">
+    <menu>
+        <item
+            android:id="@+id/nav_contato"
+            android:icon="@android:drawable/stat_sys_phone_call"
+            android:title="Contato" />
+        <item
+            android:id="@+id/nav_avaliar"
+            android:icon="@drawable/avaliar"
+            android:title="Avalie-nos" />
+        <item
+            android:id="@+id/nav_sair"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Sair" />
+
+    </menu>
+    </item>
+
+</menu>

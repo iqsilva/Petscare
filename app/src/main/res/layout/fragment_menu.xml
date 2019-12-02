@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.android.queiros.igor.petscare.MenuFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/consultas"
+        android:layout_below="@+id/consultas"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="10dp"
+        android:text="Consultas" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView13"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_alignStart="@+id/sobre"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="10dp"
+        android:text="Avalie-nos" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/visualizar"
+        android:layout_below="@+id/visualizar"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="10dp"
+        android:text="Visualizar" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:layout_marginStart="22dp"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignStart="@+id/animais" />
+
+    <ImageButton
+        android:id="@+id/sobre"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/animais"
+        android:layout_alignTop="@+id/consultas"
+        android:background="?android:attr/detailsElementBackground"
+        app:srcCompat="@drawable/like" />
+
+    <ImageButton
+        android:id="@+id/consultas"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/visualizar"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="46dp"
+        android:background="?android:attr/detailsElementBackground"
+        app:srcCompat="@drawable/menucalendar" />
+
+    <ImageButton
+        android:id="@+id/animais"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/visualizar"
+        android:layout_marginStart="64dp"
+        android:layout_toEndOf="@+id/visualizar"
+        android:background="?android:attr/detailsElementBackground"
+        app:srcCompat="@drawable/cat" />
+
+    <ImageButton
+        android:id="@+id/visualizar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="60dp"
+        android:background="?android:attr/detailsElementBackground"
+        app:srcCompat="@drawable/menueye" />
+
+</RelativeLayout>

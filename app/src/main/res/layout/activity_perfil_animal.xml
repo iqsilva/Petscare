@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.android.queiros.igor.petscare.AnimaisActivity">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/buttonDeletar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonAlterar"
+            android:layout_alignBottom="@+id/buttonAlterar"
+            android:layout_alignEnd="@+id/edtSpecie"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/btn_login"
+            android:text="Excluir"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonAlterar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtSpecie"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="11dp"
+            android:layout_toStartOf="@+id/buttonDeletar"
+            android:layout_weight="1"
+            android:background="@color/btn_login"
+            android:text="Atualizar"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/ShowImageView"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/edtSpecie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView24"
+            android:layout_alignBottom="@+id/textView24"
+            android:layout_margin="10dp"
+            android:layout_toEndOf="@+id/textView24"
+            android:hint="Espécie"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/edtGenre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView24"
+            android:layout_alignEnd="@+id/edtSpecie"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/textView23"
+            android:hint="Sexo"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/edtCoat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView22"
+            android:layout_alignBottom="@+id/textView22"
+            android:layout_margin="10dp"
+            android:layout_toEndOf="@+id/textView22"
+            android:hint="Pelagem"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edtColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView21"
+            android:layout_alignBottom="@+id/textView21"
+            android:layout_margin="10dp"
+            android:layout_toEndOf="@+id/textView21"
+            android:hint="Cor"
+            android:inputType="text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/editConsultaStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView20"
+            android:layout_alignBottom="@+id/textView20"
+            android:layout_margin="10dp"
+            android:layout_toEndOf="@+id/textView23"
+            android:hint="Raça"
+            android:inputType="text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/editConsultaName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView19"
+            android:layout_alignBottom="@+id/textView19"
+            android:layout_margin="10dp"
+            android:layout_toEndOf="@+id/textView19"
+            android:hint="Nome"
+            android:inputType="text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView23"
+            android:layout_below="@+id/textView23"
+            android:layout_marginTop="12dp"
+            android:text="Espécie "
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView22"
+            android:layout_below="@+id/textView22"
+            android:layout_marginTop="12dp"
+            android:text="Sexo "
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView21"
+            android:layout_below="@+id/textView21"
+            android:layout_marginTop="12dp"
+            android:text="Pelagem "
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView20"
+            android:layout_below="@+id/textView20"
+            android:layout_marginTop="12dp"
+            android:text="Cor "
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView19"
+            android:layout_below="@+id/textView19"
+            android:layout_marginTop="12dp"
+            android:text="Raça "
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ShowImageView"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Nome "
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
+

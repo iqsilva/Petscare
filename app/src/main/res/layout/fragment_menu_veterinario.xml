@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.android.queiros.igor.petscare.MenuVeterinarioFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sobre"
+        android:layout_below="@+id/sobre"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="10dp"
+        android:text="Avalie-nos" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/consultas"
+        android:layout_below="@+id/consultas"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="10dp"
+        android:text="Consultas" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/visualizar"
+        android:layout_below="@+id/visualizar"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="10dp"
+        android:text="Visualizar" />
+
+    <ImageButton
+        android:id="@+id/sobre"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/consultas"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/detailsElementBackground"
+        app:srcCompat="@drawable/like" />
+
+    <ImageButton
+        android:id="@+id/consultas"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/visualizar"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="15dp"
+        android:background="?android:attr/detailsElementBackground"
+        app:srcCompat="@drawable/menucalendar" />
+
+    <ImageButton
+        android:id="@+id/visualizar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:background="?android:attr/detailsElementBackground"
+        app:srcCompat="@drawable/menueye"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

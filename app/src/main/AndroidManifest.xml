@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.android.queiros.igor.petscare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Petscare - Proprietário"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ConsultasActivity" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppCompat.TelaCheia">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EsqueceuSenhaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CadastroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AnimaisActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CadastroAnimaisActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PerfilAnimalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SobreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AnimaisConsultasActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProcedimentosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ContatoActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".DisplayImagesActivity" />
+        <activity android:name=".TesteActivity" />
+        <activity android:name=".UsuariosActivity" />
+        <activity
+            android:name=".MainVeterinarioActivity"
+            android:label="Petscare - Veterinário"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SobreVeterinarioActivity" />
+        <activity android:name=".AnimaisVeterinarioActivity" />
+        <activity android:name=".PerfilAnimalVeterinarioActivity" />
+        <activity android:name=".TesteVeterinarioActivity" />
+        <activity android:name=".Usuarios2Activity" />
+        <activity android:name=".AnimaisConsultasVeterinarioActivity" />
+        <activity android:name=".ProcedimentosVeterinarioActivity" />
+        <activity android:name=".ContatoVeterinarioActivity"></activity>
+    </application>
+
+</manifest>

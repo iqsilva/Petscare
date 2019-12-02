@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="br.com.android.queiros.igor.petscare.EsqueceuSenhaActivity">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <EditText
+            android:id="@+id/edtEmailRec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textViewSubtitulo"
+            android:layout_alignStart="@+id/textViewSubtitulo"
+            android:layout_below="@+id/textViewSubtitulo"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Digite seu e-mail"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/textViewSubtitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/navigation_header_name"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="122dp" />
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/textViewSubtitulo"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="50dp"
+            app:srcCompat="@drawable/petscare" />
+
+        <Button
+            android:id="@+id/btnRecuperarSenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/edtEmailRec"
+            android:layout_alignStart="@+id/edtEmailRec"
+            android:layout_below="@+id/edtEmailRec"
+            android:layout_marginTop="5dp"
+            android:background="@color/btn_login"
+            android:onClick="enviarEmail"
+            android:text="Recuperar Senha"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
